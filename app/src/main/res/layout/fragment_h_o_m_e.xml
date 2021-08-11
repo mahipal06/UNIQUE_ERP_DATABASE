@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    tools:context=".HOME">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="340dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="220dp"
+        app:iss_auto_cycle="true"
+        app:iss_delay="0"
+        app:iss_period="1000" />
+
+    <TextView
+        android:layout_width="340sp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="120sp"
+        android:text="To Get Your Dream Career - Join India's Top IT Services and Training Institute in Faridabad"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="340sp"
+        android:layout_height="76sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="165sp"
+        android:textColor="@color/black"
+        android:text="IF YOU ARE A GRADUATE OR WORKING PROFESSIONAL, THEN YOU START YOUR TRAINING WITH US."/>
+
+
+    <TextView
+        android:layout_width="340sp"
+        android:layout_height="375sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="380dp"
+        android:text="In terms of computer education and training, Unique ERP is known for excellence in quality and for consistently delivering result. Unique ERP is the top IT Institute in Faridabad that doesn't provide IT training but makes all the students stand in the market.
+
+Unique ERP mainly provide IT-related courses and even being into Training and Development for about 5+ years, Unique ERP has evolved a variety of training modules in the verticals of Programming languages, Cloud Computing, Web design, development, Hardware, Networking, Windows / Linux administration, Data warehousing, ERPs, CRM, and Testing etc.
+
+Here, students get knowledge about computer through programmer and training through our IT experts and we provide a guideline as well so that students can take the right decision for their career. Unique ERP mainly offers professional and specialized IT Training courses after graduation."
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+
+</FrameLayout>
